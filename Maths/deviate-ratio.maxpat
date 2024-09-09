@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.170469398684872, 100.0, 77.0, 22.0 ],
+					"patching_rect" : [ 170.0, 100.0, 77.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -76,7 +76,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Chans",
 					"id" : "obj-4",
 					"index" : 4,
 					"maxclass" : "inlet",
@@ -89,7 +89,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "ramptime",
 					"id" : "obj-3",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -102,7 +102,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "deviate-ratio",
 					"id" : "obj-2",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -156,8 +156,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 50.0, 349.64303982257843, 47.0, 22.0 ],
-					"text" : "mc.line"
+					"patching_rect" : [ 50.0, 349.64303982257843, 60.0, 22.0 ],
+					"text" : "mc.line 1."
 				}
 
 			}
@@ -211,13 +211,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "center",
 					"id" : "obj-22",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.170469398684872, 39.999990823375697, 30.0, 30.0 ]
 				}
 
@@ -324,7 +324,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 87.5, 378.203879565000534, 99.585233140064815, 378.203879565000534 ],
+					"midpoints" : [ 100.5, 378.203879565000534, 99.585233140064815, 378.203879565000534 ],
 					"source" : [ "obj-29", 2 ]
 				}
 
@@ -375,7 +375,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"midpoints" : [ 164.670469398684872, 130.594790625572216, 110.085233140064815, 130.594790625572216 ],
+					"midpoints" : [ 179.5, 130.594790625572216, 110.085233140064815, 130.594790625572216 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
